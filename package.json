@@ -6,5 +6,6 @@
   "repository": "https://github.com/TheRedXD/nxst",
   "author": "TheRedXD",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "keywords": ["nesting", "nest", "function", "insert", "next", "simple", "execute", "easy", "recurse", "recursive"]
 }
