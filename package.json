@@ -1,0 +1,10 @@
+{
+  "name": "nxst",
+  "version": "1.0.0",
+  "description": "A simple module to help with the infamous function nesting problem.",
+  "main": "index.js",
+  "repository": "https://github.com/TheRedXD/nxst",
+  "author": "TheRedXD",
+  "license": "MIT",
+  "type": "module"
+}
