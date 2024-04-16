@@ -1,6 +1,6 @@
 {
   "name": "nxst",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple module to help with the infamous function nesting problem.",
   "main": "index.js",
   "repository": "https://github.com/TheRedXD/nxst",
@@ -26,7 +26,7 @@
   "scripts": {
     "rollup": "npx rollup index.js --file index.cjs --format cjs"
   },
-  "dependencies": {
+  "devDependencies": {
     "rollup": "^4.14.3"
   }
 }
