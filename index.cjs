@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * @description An empty class to use as a placeholder for a function insertion (this way we can just check if the class is an instance of ElementInsert, instead of checking against some kind of special format/string or etc).
  */
@@ -95,4 +97,6 @@ class Nest {
  * 
  * @returns new Nest()
  */
-export default function nest() { return new Nest() }
+function nest() { return new Nest() }
+
+module.exports = nest;

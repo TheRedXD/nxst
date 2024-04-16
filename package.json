@@ -7,5 +7,26 @@
   "author": "TheRedXD",
   "license": "MIT",
   "type": "module",
-  "keywords": ["nesting", "nest", "function", "insert", "next", "simple", "execute", "easy", "recurse", "recursive"]
+  "keywords": [
+    "nesting",
+    "nest",
+    "function",
+    "insert",
+    "next",
+    "simple",
+    "execute",
+    "easy",
+    "recurse",
+    "recursive"
+  ],
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "scripts": {
+    "rollup": "npx rollup index.js --file index.cjs --format cjs"
+  },
+  "dependencies": {
+    "rollup": "^4.14.3"
+  }
 }

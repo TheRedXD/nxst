@@ -117,7 +117,7 @@ Then there is no real other setup, other than a simple import:
 import nest from "nxst";
 
 // CommonJS (type: "commonjs" in the package.json, or no type at all)
-const nest = import("nxst");
+const nest = require("nxst");
 ```
 
 Voila! Now you can use nxst.
