@@ -1,7 +1,7 @@
 /**
  * @description An empty class to use as a placeholder for a function insertion (this way we can just check if the class is an instance of ElementInsert, instead of checking against some kind of special format/string or etc).
  */
-class ElementInsert { constructor() {} }
+declare class ElementInsert {}
 
 /**
  * @description A nest of functions to solve the infamous function inside function problem.
@@ -17,8 +17,8 @@ class ElementInsert { constructor() {} }
  * 
  * // Note: this code is useless by itself, it only serves as an example! nest() may be used in larger codebases, where this type of problem is significantly more common (and also each instance is larger), and makes code harder to read - that's where nest() is supposed to come in.
  */
-class Nest {
-    _nest: Array;
+declare class Nest {
+    _nest: Array<Object>;
     insert: ElementInsert;
     /**
      * @param {Function} fn Any function.
